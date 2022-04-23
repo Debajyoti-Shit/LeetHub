@@ -1,3 +1,4 @@
+/*
 class Solution {
 public:
 
@@ -11,7 +12,7 @@ public:
         return shortUrl;
     }
 };
-/*
+*/
 class Solution {
 public:
     // Encodes a URL to a shortened URL.
@@ -44,7 +45,7 @@ private:
     unordered_map<string, string> short_to_long;
 };
 
-*/
+
 // Your Solution object will be instantiated and called as such:
 // Solution solution;
 // solution.decode(solution.encode(url));
