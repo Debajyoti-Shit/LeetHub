@@ -101,8 +101,6 @@ struct Node {
 
 class Solution{
     public:
-    /*You are required to complete this method */
-    // Return the size of the largest sub-tree which is also a BST
     int findSize(Node* root){
         if(!root) return 0;
         return findSize(root->left)+findSize(root->right)+1;
